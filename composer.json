@@ -1,0 +1,23 @@
+{
+    "name": "yab/crawler",
+    "description": "A very simple web crawler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lantz",
+            "email": "matt@yabhq.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^3.0",
+        "symfony/css-selector": "^3.0"
+        "guzzlehttp/guzzle": "^6.1",
+    },
+    "autoload": {
+        "psr-4": {
+            "Yab\\Crawler\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
