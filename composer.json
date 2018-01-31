@@ -10,8 +10,8 @@
     ],
     "require": {
         "symfony/dom-crawler": "^3.0",
-        "symfony/css-selector": "^3.0"
-        "guzzlehttp/guzzle": "^6.1",
+        "symfony/css-selector": "^3.0",
+        "guzzlehttp/guzzle": "^6.1"
     },
     "autoload": {
         "psr-4": {
